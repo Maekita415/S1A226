@@ -17,7 +17,7 @@ p {
 /*ここから*/
 p::before{
   content: "■";
-  margin-right: 40px;
+  margin-right: 4px;
   color: #ef626c;
 }
 input[type="text"],select,

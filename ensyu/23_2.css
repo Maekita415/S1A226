@@ -22,6 +22,13 @@ dl{
     align-items: center;
 }
 dt{
+    flex: 1 1 30px;
+    text-align: right;
+    margin-right: 1em;
+    font-weight: bold;
+    color: #00a;
+}
+dd{
     flex: 2 1 30px;
     margin-left: 0;
 }
@@ -32,7 +39,7 @@ input[type="text"],textarea{
     border-radius: 5px;
 }
 .job{
-    margin-right: 8em;
+    margin-right:.8em;
 }
 select{
     background: #fff;
@@ -65,7 +72,8 @@ input[type="submit"]{
     dd{
         margin-left: 0;
     }
-    .job{margin-right: .8em;
+    .job{
+        margin-right: .8em;
     }
     
 }
